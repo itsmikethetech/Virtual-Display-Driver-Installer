@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="RefreshRates" targetNamespace="http://tempuri.org/RefreshRates.xsd" xmlns:mstns="http://tempuri.org/RefreshRates.xsd" xmlns="http://tempuri.org/RefreshRates.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="RefreshRates" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="RefreshRates" msprop:Generator_DataSetName="RefreshRates">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_RowClassName="DataTable1Row" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_UserTableName="DataTable1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="_x0033_0" msprop:Generator_ColumnPropNameInRow="_30" msprop:Generator_ColumnPropNameInTable="_30Column" msprop:Generator_ColumnVarNameInTable="column30" msprop:Generator_UserColumnName="30" type="xs:string" minOccurs="0" />
+              <xs:element name="_x0036_0" msprop:Generator_ColumnPropNameInRow="_60" msprop:Generator_ColumnPropNameInTable="_60Column" msprop:Generator_ColumnVarNameInTable="column60" msprop:Generator_UserColumnName="60" type="xs:string" minOccurs="0" />
+              <xs:element name="_x0039_0" msprop:Generator_ColumnPropNameInRow="_90" msprop:Generator_ColumnPropNameInTable="_90Column" msprop:Generator_ColumnVarNameInTable="column90" msprop:Generator_UserColumnName="90" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="DataTable1Key1">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:_x0033_0" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

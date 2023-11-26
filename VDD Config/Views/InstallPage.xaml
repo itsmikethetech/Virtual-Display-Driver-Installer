@@ -1,0 +1,113 @@
+﻿<Page
+    x:Class="VDD_Config.Views.InstallPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+
+        <Grid x:Name="ContentArea" ColumnDefinitions="Auto, Auto, Auto" RowDefinitions ="Auto, Auto, Auto">
+
+            <Expander Grid.Row="0" Grid.Column="0" x:Name="Expander2" HorizontalAlignment="Left" IsExpanded="True" Header="Display #1 Settings" VerticalAlignment="Top" IsEnabled="True" Margin="10,10,10,10">
+                <Expander.Content>
+                    <Grid HorizontalAlignment="Left" VerticalAlignment="Top" ColumnDefinitions="Auto, Auto, Auto" RowDefinitions ="Auto, Auto, Auto">
+                        <TextBlock Grid.Row="0" Grid.Column="0" Margin="10,10,0,0">Resolution</TextBlock>
+                        <DropDownButton Grid.Row="1" Grid.Column="0" Content="1920x1080" Margin="10,10,10,10">
+                            <DropDownButton.Flyout>
+                                <MenuFlyout>
+                                    <MenuFlyoutItem Text="1920x1080"/>
+                                    <MenuFlyoutItem Text="2560x1440"/>
+                                    <MenuFlyoutItem Text="3840x2160"/>
+                                </MenuFlyout>
+                            </DropDownButton.Flyout>
+                        </DropDownButton>
+                        <TextBlock Grid.Row="0" Grid.Column="1" Margin="10,10,0,0">Refresh Rate</TextBlock>
+                        <NumberBox Grid.Row="1" Grid.Column="1" x:Name="NumberBoxSpinButtonPlacementExample" Value="60" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="10" Margin="10,10,10,10"/>
+                    </Grid>
+                </Expander.Content>
+            </Expander>
+
+
+
+            <Expander Grid.Row="0" Grid.Column="1"  x:Name="Expander3" HorizontalAlignment="Left" IsExpanded="True" Header="Display #2 Settings" VerticalAlignment="Top" IsEnabled="False" Margin="10,10,10,10">
+                <Expander.Content>
+                    <Grid HorizontalAlignment="Left" VerticalAlignment="Top" ColumnDefinitions="Auto, Auto, Auto" RowDefinitions ="Auto, Auto, Auto">
+                        <TextBlock Grid.Row="0" Grid.Column="0" Margin="10,10,0,0">Resolution</TextBlock>
+                        <DropDownButton Grid.Row="1" Grid.Column="0" Content="1920x1080" Margin="10,10,10,10">
+                            <DropDownButton.Flyout>
+                                <MenuFlyout>
+                                    <MenuFlyoutItem Text="1920x1080"/>
+                                    <MenuFlyoutItem Text="2560x1440"/>
+                                    <MenuFlyoutItem Text="3840x2160"/>
+                                </MenuFlyout>
+                            </DropDownButton.Flyout>
+                        </DropDownButton>
+                        <TextBlock Grid.Row="0" Grid.Column="1" Margin="10,10,0,0">Refresh Rate</TextBlock>
+                        <NumberBox Grid.Row="1" Grid.Column="1" x:Name="NumberBoxSpinButtonPlacementExample2" Value="60" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="10" Margin="10,10,10,10"/>
+                    </Grid>
+                </Expander.Content>
+            </Expander>
+
+
+            <Expander Grid.Row="0" Grid.Column="2"  x:Name="Expander4" HorizontalAlignment="Left" IsExpanded="True" Header="Display #3 Settings" VerticalAlignment="Top" IsEnabled="False" Margin="10,10,10,10">
+                <Expander.Content>
+                    <Grid HorizontalAlignment="Left" VerticalAlignment="Top" ColumnDefinitions="Auto, Auto, Auto" RowDefinitions ="Auto, Auto, Auto">
+                        <TextBlock Grid.Row="0" Grid.Column="0" Margin="10,10,0,0">Resolution</TextBlock>
+                        <DropDownButton Grid.Row="1" Grid.Column="0" Content="1920x1080" Margin="10,10,10,10">
+                            <DropDownButton.Flyout>
+                                <MenuFlyout>
+                                    <MenuFlyoutItem Text="1920x1080"/>
+                                    <MenuFlyoutItem Text="2560x1440"/>
+                                    <MenuFlyoutItem Text="3840x2160"/>
+                                </MenuFlyout>
+                            </DropDownButton.Flyout>
+                        </DropDownButton>
+                        <TextBlock Grid.Row="0" Grid.Column="1" Margin="10,10,0,0">Refresh Rate</TextBlock>
+                        <NumberBox Grid.Row="1" Grid.Column="1" x:Name="NumberBoxSpinButtonPlacementExample3" Value="60" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="10" Margin="10,10,10,10"/>
+                    </Grid>
+                </Expander.Content>
+            </Expander>
+
+
+            <Expander Grid.Row="1" Grid.Column="0"  x:Name="Expander5" HorizontalAlignment="Left" IsExpanded="True" Header="Display #4 Settings" VerticalAlignment="Top" IsEnabled="False" Margin="10,10,10,10">
+                <Expander.Content>
+                    <Grid HorizontalAlignment="Left" VerticalAlignment="Top" ColumnDefinitions="Auto, Auto, Auto" RowDefinitions ="Auto, Auto, Auto">
+                        <TextBlock Grid.Row="0" Grid.Column="0" Margin="10,10,0,0">Resolution</TextBlock>
+                        <DropDownButton Grid.Row="1" Grid.Column="0" Content="1920x1080" Margin="10,10,10,10">
+                            <DropDownButton.Flyout>
+                                <MenuFlyout>
+                                    <MenuFlyoutItem Text="1920x1080"/>
+                                    <MenuFlyoutItem Text="2560x1440"/>
+                                    <MenuFlyoutItem Text="3840x2160"/>
+                                </MenuFlyout>
+                            </DropDownButton.Flyout>
+                        </DropDownButton>
+                        <TextBlock Grid.Row="0" Grid.Column="1" Margin="10,10,0,0">Refresh Rate</TextBlock>
+                        <NumberBox Grid.Row="1" Grid.Column="1" x:Name="NumberBoxSpinButtonPlacementExample4" Value="60" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="10" Margin="10,10,10,10"/>
+                    </Grid>
+                </Expander.Content>
+            </Expander>
+
+
+            <Expander Grid.Row="1" Grid.Column="1"  x:Name="Expander6" HorizontalAlignment="Left" IsExpanded="True" Header="Display #5 Settings" VerticalAlignment="Top" IsEnabled="False" Margin="10,10,10,10">
+                <Expander.Content>
+                    <Grid HorizontalAlignment="Left" VerticalAlignment="Top" ColumnDefinitions="Auto, Auto, Auto" RowDefinitions ="Auto, Auto, Auto">
+                        <TextBlock Grid.Row="0" Grid.Column="0" Margin="10,10,0,0">Resolution</TextBlock>
+                        <DropDownButton Grid.Row="1" Grid.Column="0" Content="1920x1080" Margin="10,10,10,10">
+                            <DropDownButton.Flyout>
+                                <MenuFlyout>
+                                    <MenuFlyoutItem Text="1920x1080"/>
+                                    <MenuFlyoutItem Text="2560x1440"/>
+                                    <MenuFlyoutItem Text="3840x2160"/>
+                                </MenuFlyout>
+                            </DropDownButton.Flyout>
+                        </DropDownButton>
+                        <TextBlock Grid.Row="0" Grid.Column="1" Margin="10,10,0,0">Refresh Rate</TextBlock>
+                        <NumberBox Grid.Row="1" Grid.Column="1" x:Name="NumberBoxSpinButtonPlacementExample5" Value="60" SpinButtonPlacementMode="Compact" SmallChange="1" LargeChange="10" Margin="10,10,10,10"/>
+                    </Grid>
+                </Expander.Content>
+            </Expander>
+
+        </Grid>
+</Page>

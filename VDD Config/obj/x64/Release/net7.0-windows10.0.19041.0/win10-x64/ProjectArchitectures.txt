@@ -1,0 +1,1 @@
+C:\Users\alisa\source\repos\VDD Config\VDD Config\VDD Config.csproj;x64
